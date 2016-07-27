@@ -8,6 +8,7 @@ import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.minecraftforge.oredict.ShapedOreRecipe;
 
 public class ModCrafting {
 	
@@ -61,10 +62,10 @@ public class ModCrafting {
 				"BEB",
 				" B ", 'B', Items.BRICK, 'E', Items.EGG);
 		
-		GameRegistry.addRecipe(new ItemStack(ModItems.oil_item, 1, 1),
+		GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.oil_item, 1, 1),
 				"BBB",
 				"BEB",
-				"BBB", 'B', Blocks.SAPLING, 'E', new ItemStack(ModItems.oil_item, 1, 0));
+				"BBB", 'B', "treeSapling", 'E', new ItemStack(ModItems.oil_item, 1, 0)));
 		
 		GameRegistry.addRecipe(new ItemStack(ModItems.oil_item, 1, 1),
 				"BBB",
@@ -75,6 +76,17 @@ public class ModCrafting {
 				"BBB",
 				"BEB",
 				"BBB", 'B', Items.WHEAT_SEEDS, 'E', new ItemStack(ModItems.oil_item, 1, 1));
+		
+		GameRegistry.addRecipe(new ItemStack(ModItems.oil_item, 1, 2),
+				"BBB",
+				"BEB",
+				"BBB", 'B', Items.PUMPKIN_SEEDS, 'E', new ItemStack(ModItems.oil_item, 1, 1));
+		
+		
+		GameRegistry.addRecipe(new ItemStack(ModItems.oil_item, 1, 2),
+				"BBB",
+				"BEB",
+				"BBB", 'B', Items.BEETROOT_SEEDS, 'E', new ItemStack(ModItems.oil_item, 1, 1));
 		
 		GameRegistry.addRecipe(new ItemStack(ModItems.oil_item, 1, 3),
 				"BBB",
@@ -106,6 +118,16 @@ public class ModCrafting {
 				"DDD",
 				"DOD",
 				"DDD", 'D', Items.WHEAT_SEEDS, 'O', new ItemStack(ModItems.oil_item, 1, 2));
+		
+		GameRegistry.addRecipe(new ItemStack(Items.DYE, 8, 15),
+				"DDD",
+				"DOD",
+				"DDD", 'D', Items.PUMPKIN_SEEDS, 'O', new ItemStack(ModItems.oil_item, 1, 2));
+		
+		GameRegistry.addRecipe(new ItemStack(Items.DYE, 8, 15),
+				"DDD",
+				"DOD",
+				"DDD", 'D', Items.BEETROOT_SEEDS, 'O', new ItemStack(ModItems.oil_item, 1, 2));
 		
 		GameRegistry.addRecipe(new ItemStack(ModBlocks.glowing_farmer_block),
 				"SBS",

@@ -14,5 +14,5 @@ V1.1.6
     [5X5 when the fertiliser in it's center]
 V1.1.7:
     -adjusted seed oil, so it can be crafted with other seeds
-    -Added baking tools
+    -bonemeal can be crafted with seed oil + pumpkin\wheat\beetrot seeds
     -
