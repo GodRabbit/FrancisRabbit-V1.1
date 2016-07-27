@@ -1,0 +1,8 @@
+{
+    "parent": "block/farmland",
+    "textures": {
+        "particle": "francisrabbit:blocks/faithed_soil_block",
+        "dirt": "francisrabbit:blocks/faithed_soil_block",
+        "top": "francisrabbit:blocks/faithed_soil_block_top"
+    }
+}

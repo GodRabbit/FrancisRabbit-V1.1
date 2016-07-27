@@ -1,0 +1,18 @@
+V1.0.3:
+    -Faith Emblem repair itself every minute if FP > 100;
+    -FP are reduced once, no matter how many expensive items you have in your inventory
+    -Added fluffy cottons seeds item and crop
+    -you can craft feathers, strings and wool from fluffy cotton
+    -added pumpkin oil, used to craft fluffy seeds
+    -Added the Faithed Shears. Repair themshelves over time and are not expensive.
+V1.0.4
+    -fixed some bugs with last version
+V1.1.6
+    -Added coal oil [4 coal blocks + seed oil]
+    -Added circuit oil [8 comperators + coal oil]
+    -Added Soil Fertiliser Block. Consumes coal oil to fertilise crops in it's surrounding
+    [5X5 when the fertiliser in it's center]
+V1.1.7:
+    -adjusted seed oil, so it can be crafted with other seeds
+    -Added baking tools
+    -

@@ -1,0 +1,12 @@
+{
+    "variants": {
+        "age=0": { "model": "francisrabbit:fluffy_cotton_crops0" },
+        "age=1": { "model": "francisrabbit:fluffy_cotton_crops0" },
+        "age=2": { "model": "francisrabbit:fluffy_cotton_crops1" },
+        "age=3": { "model": "francisrabbit:fluffy_cotton_crops1" },
+        "age=4": { "model": "francisrabbit:fluffy_cotton_crops2" },
+        "age=5": { "model": "francisrabbit:fluffy_cotton_crops2" },
+        "age=6": { "model": "francisrabbit:fluffy_cotton_crops3" },
+        "age=7": { "model": "francisrabbit:fluffy_cotton_crops4" }
+    }
+}

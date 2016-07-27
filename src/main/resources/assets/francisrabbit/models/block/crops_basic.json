@@ -1,0 +1,34 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
+"ambientocclusion": false,
+    "textures": {
+        "0": "francisrabbit:blocks/fluffy_cotton_crops0",
+        "1": "francisrabbit:blocks/fluffy_cotton_crops0",
+        "particle": "francisrabbit:blocks/fluffy_cotton_crops3"
+
+    },
+    "elements": [
+        {
+            "name": "wall1",
+            "from": [ 0.8, 0.0, 8.0 ], 
+            "to": [ 15.2, 16.0, 8.0 ], 
+            "shade": false,
+            "rotation": { "origin": [ 8.0, 8.0, 8.0 ], "axis": "y", "angle": 45.0, "rescale": true },
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "south": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+            }
+        },
+        {
+            "name": "wall2",
+            "from": [ 8.0, 0.0, 0.8 ], 
+            "to": [ 8.0, 16.0, 15.2 ], 
+            "shade": false,
+            "rotation": { "origin": [ 8.0, 8.0, 8.0 ], "axis": "y", "angle": 45.0, "rescale": true },
+            "faces": {
+                "east": { "texture": "#1", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "west": { "texture": "#1", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+            }
+        }
+    ]
+}

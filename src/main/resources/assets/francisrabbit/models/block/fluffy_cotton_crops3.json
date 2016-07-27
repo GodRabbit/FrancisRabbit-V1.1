@@ -1,0 +1,8 @@
+{
+    "parent": "francisrabbit:block/crops_basic",
+    "textures": {
+        "0": "francisrabbit:blocks/fluffy_cotton_crops3",
+        "1":"francisrabbit:blocks/fluffy_cotton_crops3",
+        "particle": "francisrabbit:blocks/fluffy_cotton_crops3"
+    }
+}

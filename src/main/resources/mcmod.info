@@ -1,0 +1,16 @@
+[
+{
+  "modid": "francisrabbit",
+  "name": "Francis Rabbit",
+  "description": "Francis Rabbit mod.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["GodRabbit"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

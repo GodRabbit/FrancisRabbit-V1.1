@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "francisrabbit:blocks/charity_chest_block_top",
+        "side": "francisrabbit:blocks/charity_chest_block"
+    }
+}
